@@ -1,0 +1,120 @@
+
+[2026, 8, 23, 11, 52, 59] ;;; vcamera; Camera Error on index 0 with name QuickCam.
+[2026, 8, 23, 11, 52, 59] ;;; vcamera; Camera Error on index 0 with name QuickCam.
+[2026, 8, 23, 11, 52, 59] ;;; vcamera;     > Format Grab Type B Failed.
+[2026, 8, 23, 11, 52, 59] ;;; vcamera;     > Format Grab Type B Failed.
+[2026, 8, 23, 11, 52, 59] ;;; vcamera; Camera Error on index 0 with name QuickCam.
+[2026, 8, 23, 11, 52, 59] ;;; vcamera; Camera Error on index 0 with name QuickCam.
+[2026, 8, 23, 11, 52, 59] ;;; vcamera;     > Format Grab Type C Failed.
+[2026, 8, 23, 11, 52, 59] ;;; vcamera; Camera Error on index 0 with name QuickCam.
+[2026, 8, 23, 11, 52, 59] ;;; vcamera;     > Format Grab Type C Failed.
+[2026, 8, 23, 11, 52, 59] ;;; vcamera; Traceback (most recent call last):
+  File "C:\Users\joshp\Desktop\security_camera_client\modules\vcamera.py", line 252, in grabFormatTypeC
+    for format in listCameras.getAvailableFormats(self.index):
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshp\Desktop\security_camera_client\modules\vcamera.py", line 593, in getAvailableFormats
+    graph.add_video_input_device(index)
+  File "C:\Users\joshp\AppData\Local\Programs\Python\Python311\Lib\site-packages\pygrabber\dshow_graph.py", line 325, in add_video_input_device
+    self.__add_filter(FilterType.video_input, index)
+  File "C:\Users\joshp\AppData\Local\Programs\Python\Python311\Lib\site-packages\pygrabber\dshow_graph.py", line 320, in __add_filter
+    filter = self.filter_factory.build_filter(filter_type, filter_id)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshp\AppData\Local\Programs\Python\Python311\Lib\site-packages\pygrabber\dshow_graph.py", line 256, in build_filter
+    return VideoInput(self.system_device_enum.get_filter_by_index(DeviceCategories.VideoInputDevice, id), self.capture_builder)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshp\AppData\Local\Programs\Python\Python311\Lib\site-packages\pygrabber\dshow_graph.py", line 245, in get_filter_by_index
+    return moniker.BindToObject(0, 0, qedit.IBaseFilter._iid_).QueryInterface(qedit.IBaseFilter), \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ctypes.COMError: (-2147024770, 'The specified module could not be found.', (None, None, None, 0, None))
+
+[2026, 8, 23, 11, 52, 59] ;;; vcamera; Traceback (most recent call last):
+  File "C:\Users\joshp\Desktop\security_camera_client\modules\vcamera.py", line 252, in grabFormatTypeC
+    for format in listCameras.getAvailableFormats(self.index):
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshp\Desktop\security_camera_client\modules\vcamera.py", line 593, in getAvailableFormats
+    graph.add_video_input_device(index)
+  File "C:\Users\joshp\AppData\Local\Programs\Python\Python311\Lib\site-packages\pygrabber\dshow_graph.py", line 325, in add_video_input_device
+    self.__add_filter(FilterType.video_input, index)
+  File "C:\Users\joshp\AppData\Local\Programs\Python\Python311\Lib\site-packages\pygrabber\dshow_graph.py", line 320, in __add_filter
+    filter = self.filter_factory.build_filter(filter_type, filter_id)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshp\AppData\Local\Programs\Python\Python311\Lib\site-packages\pygrabber\dshow_graph.py", line 256, in build_filter
+    return VideoInput(self.system_device_enum.get_filter_by_index(DeviceCategories.VideoInputDevice, id), self.capture_builder)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshp\AppData\Local\Programs\Python\Python311\Lib\site-packages\pygrabber\dshow_graph.py", line 245, in get_filter_by_index
+    return moniker.BindToObject(0, 0, qedit.IBaseFilter._iid_).QueryInterface(qedit.IBaseFilter), \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ctypes.COMError: (-2147024770, 'The specified module could not be found.', (None, None, None, 0, None))
+
+[2026, 8, 23, 11, 52, 59] ;;; vcamera; Camera Error on index 0 with name QuickCam.
+[2026, 8, 23, 11, 52, 59] ;;; vcamera; Camera Error on index 0 with name QuickCam.
+[2026, 8, 23, 11, 52, 59] ;;; vcamera; Camera Error on index 0 with name QuickCam.
+[2026, 8, 23, 11, 52, 59] ;;; vcamera; Camera Error on index 0 with name QuickCam.
+[2026, 8, 23, 11, 52, 59] ;;; vcamera; Camera Error on index 0 with name QuickCam.
+[2026, 8, 23, 11, 52, 59] ;;; vcamera; Camera Error on index 0 with name QuickCam.
+[2026, 8, 23, 11, 52, 59] ;;; vcamera; Camera Error on index 0 with name QuickCam.
+[2026, 8, 23, 11, 52, 59] ;;; vcamera;     > Format Grab Type B Failed.
+[2026, 8, 23, 11, 52, 59] ;;; vcamera; Camera Error on index 0 with name QuickCam.
+[2026, 8, 23, 11, 53, 0] ;;; vcamera; Camera Error on index 0 with name QuickCam.
+[2026, 8, 23, 11, 53, 0] ;;; vcamera;     > Format Grab Type C Failed.
+[2026, 8, 23, 11, 53, 0] ;;; vcamera; Traceback (most recent call last):
+  File "C:\Users\joshp\Desktop\security_camera_client\modules\vcamera.py", line 252, in grabFormatTypeC
+    for format in listCameras.getAvailableFormats(self.index):
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshp\Desktop\security_camera_client\modules\vcamera.py", line 593, in getAvailableFormats
+    graph.add_video_input_device(index)
+  File "C:\Users\joshp\AppData\Local\Programs\Python\Python311\Lib\site-packages\pygrabber\dshow_graph.py", line 325, in add_video_input_device
+    self.__add_filter(FilterType.video_input, index)
+  File "C:\Users\joshp\AppData\Local\Programs\Python\Python311\Lib\site-packages\pygrabber\dshow_graph.py", line 320, in __add_filter
+    filter = self.filter_factory.build_filter(filter_type, filter_id)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshp\AppData\Local\Programs\Python\Python311\Lib\site-packages\pygrabber\dshow_graph.py", line 256, in build_filter
+    return VideoInput(self.system_device_enum.get_filter_by_index(DeviceCategories.VideoInputDevice, id), self.capture_builder)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshp\AppData\Local\Programs\Python\Python311\Lib\site-packages\pygrabber\dshow_graph.py", line 245, in get_filter_by_index
+    return moniker.BindToObject(0, 0, qedit.IBaseFilter._iid_).QueryInterface(qedit.IBaseFilter), \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ctypes.COMError: (-2147024770, 'The specified module could not be found.', (None, None, None, 0, None))
+
+[2026, 8, 23, 11, 53, 0] ;;; vcamera; Camera Error on index 0 with name QuickCam.
+[2026, 8, 23, 11, 53, 0] ;;; vcamera;     > Format Grab Type B Failed.
+[2026, 8, 23, 11, 53, 0] ;;; vcamera; Camera Error on index 0 with name QuickCam.
+[2026, 8, 23, 11, 53, 0] ;;; vcamera; Camera Error on index 0 with name QuickCam.
+[2026, 8, 23, 11, 53, 0] ;;; vcamera; Camera Error on index 0 with name QuickCam.
+[2026, 8, 23, 11, 53, 0] ;;; vcamera; Camera Error on index 0 with name QuickCam.
+[2026, 8, 23, 11, 53, 0] ;;; vcamera;     > Format Grab Type B Failed.
+[2026, 8, 23, 11, 53, 0] ;;; vcamera;     > Format Grab Type C Failed.
+[2026, 8, 23, 11, 53, 0] ;;; vcamera; Traceback (most recent call last):
+  File "C:\Users\joshp\Desktop\security_camera_client\modules\vcamera.py", line 252, in grabFormatTypeC
+    for format in listCameras.getAvailableFormats(self.index):
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshp\Desktop\security_camera_client\modules\vcamera.py", line 593, in getAvailableFormats
+    graph.add_video_input_device(index)
+  File "C:\Users\joshp\AppData\Local\Programs\Python\Python311\Lib\site-packages\pygrabber\dshow_graph.py", line 325, in add_video_input_device
+    self.__add_filter(FilterType.video_input, index)
+  File "C:\Users\joshp\AppData\Local\Programs\Python\Python311\Lib\site-packages\pygrabber\dshow_graph.py", line 320, in __add_filter
+    filter = self.filter_factory.build_filter(filter_type, filter_id)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshp\AppData\Local\Programs\Python\Python311\Lib\site-packages\pygrabber\dshow_graph.py", line 256, in build_filter
+    return VideoInput(self.system_device_enum.get_filter_by_index(DeviceCategories.VideoInputDevice, id), self.capture_builder)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshp\AppData\Local\Programs\Python\Python311\Lib\site-packages\pygrabber\dshow_graph.py", line 245, in get_filter_by_index
+    return moniker.BindToObject(0, 0, qedit.IBaseFilter._iid_).QueryInterface(qedit.IBaseFilter), \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ctypes.COMError: (-2147024770, 'The specified module could not be found.', (None, None, None, 0, None))
+
+[2026, 8, 23, 11, 53, 0] ;;; vcamera; Camera Error on index 0 with name QuickCam.
+[2026, 8, 23, 11, 53, 0] ;;; vcamera; Camera Error on index 0 with name QuickCam.
+[2026, 8, 23, 11, 55, 6] ;;; vcamera;     > Format Grab Type B Failed.
+[2026, 8, 23, 11, 55, 6] ;;; vcamera;     > Format Grab Type C Failed.
+[2026, 8, 23, 11, 55, 6] ;;; vcamera; Traceback (most recent call last):
+  File "C:\Users\joshp\Desktop\security_camera_client\modules\vcamera.py", line 252, in grabFormatTypeC
+    for format in listCameras.getAvailableFormats(self.index):
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshp\Desktop\security_camera_client\modules\vcamera.py", line 594, in getAvailableFormats
+    formats = graph.get_input_device().get_formats()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshp\AppData\Local\Programs\Python\Python311\Lib\site-packages\pygrabber\dshow_graph.py", line 138, in get_formats
+    'media_type_str': subtypes[str(media_type.contents.subtype)],
+                      ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: '{30323449-0000-0010-8000-00AA00389B71}'
