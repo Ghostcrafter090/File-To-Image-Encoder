@@ -3,8 +3,6 @@ import cv2
 import numpy as np
 import math
 import unireedsolomon as rs
-import simplejpeg
-
 
 # testData = pytools.IO.getBytes(".\\62839252.jpg")
 
@@ -83,7 +81,7 @@ def convertDataToFrame(data: bytes, xMax=320, yMax=480, analogDepth=3, errorCorr
 
 # Decodes image/frame back into file
 # analogDepth and blockSize are manually passed rn for testing, will change and include analog depth in initial header encoding
-def convertFrameToData(inputImageFileName, analogDepth, errorCorrectionBlockSize=192, returnBytes=False, decodeColor=False):
+def convertFrameToData(inputImageFileName, analogDepth, errorCorrectionBlockSize=192, returnBytes=False):
     encodedImage = cv2.imread(inputImageFileName)
     dictData = {}
     
